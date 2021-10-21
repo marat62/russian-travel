@@ -1,0 +1,12 @@
+.lead {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 984px;
+    height: 1005px;
+    left: 148px;
+    top: 136px;
+margin-left: 148px;
+margin-right: 148px;
+margin-top: 56px;
+}
