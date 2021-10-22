@@ -1,0 +1,13 @@
+.places {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: 1fr 460px;
+    align-content: flex-end;
+    gap: 48px 40px;
+	width: 984px;
+    height: 660px;
+	margin-top: 92px;
+    margin-right: 148px;
+    margin-left: 148px;
+    
+}
