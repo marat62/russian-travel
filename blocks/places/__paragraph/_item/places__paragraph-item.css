@@ -1,0 +1,7 @@
+.places__paragraph-item {
+    margin: 0;
+}
+
+.places__paragraph-item:first-child {
+    margin-bottom: 26px;
+}

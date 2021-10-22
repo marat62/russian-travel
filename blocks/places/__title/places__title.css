@@ -1,5 +1,7 @@
 .places__title {
 	margin: 0;
+    display: flex;
+    align-items: flex-end;
 	font-family: Inter;
 	font-style: normal;
 	font-weight: 900;
