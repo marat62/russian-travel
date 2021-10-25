@@ -1,7 +1,14 @@
 .lead__main-illustration {
     margin: 0;
-    width: 100%;
-    height: 100%;
+
 margin-top: 64px;
 
 }   
+
+
+@media screen  and (max-width: 320px ) {
+    .lead__main-illustration {
+        margin-top: 40px;
+
+    }
+} 

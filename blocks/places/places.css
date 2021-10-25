@@ -1,10 +1,10 @@
 .places {
     display: grid;
     grid-template-columns: 460px 1fr;
-    grid-template-rows: 1fr 460px;
+    grid-template-rows: auto 1fr;
     align-content: flex-end;
     gap: 48px 40px;
-	width: 984px;
+	
     margin-top: 80px;
     margin-right: 148px;
     margin-left: 148px;
@@ -14,3 +14,23 @@
 .places:first-child {
     margin-top: 92px;
 }
+ 
+
+        
+@media screen  and (max-width: 1024px ) {
+    .places {
+   margin-left: 48px;
+   margin-right: 48px;
+   gap: 32px 40px;
+    }
+} 
+
+@media screen  and (max-width: 768px ) {
+    .places {
+        grid-template-columns: 340px 1fr;
+    grid-template-rows: auto 1fr;
+   margin-left: 24px;
+   margin-right: 24px;
+   gap: 28px 48px;
+    }
+} 
