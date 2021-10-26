@@ -1,23 +1,16 @@
 .places__paragraph {
-
-   margin: 0;
-    
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 163%;
-    
-    
-    
-    color: #FFFFFF;
+	margin: 0;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 163%;
+	color: #FFFFFF;
 }
 
-@media screen  and (max-width: 689px ) {
-    .places__paragraph {
-       
-   margin-left: 16px;
-   margin-right: 16px;
-  
-}
+@media screen and (max-width: 689px) {
+	.places__paragraph {
+		margin-left: 16px;
+		margin-right: 16px;
+	}
 }

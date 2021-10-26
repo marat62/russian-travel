@@ -1,14 +1,11 @@
 .logo_place_header {
-max-width: 176px;
-
-
+	max-width: 176px;
 }
 
 @media screen and (max-width: 420px) {
-    .logo_place_header {
-        max-width: 142px;
-margin-right: 16px;
-margin-left: 16px;
-    }
+	.logo_place_header {
+		max-width: 142px;
+		margin-right: 16px;
+		margin-left: 16px;
+	}
 }
-

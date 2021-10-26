@@ -1,16 +1,12 @@
 .places__website {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
 }
 
-
-@media screen  and (max-width: 689px ) {
-    .places__website {
-       
-   margin-left: 16px;
-   margin-right: 16px;
-
-} 
+@media screen and (max-width: 689px) {
+	.places__website {
+		margin-left: 16px;
+		margin-right: 16px;
+	}
 }
-
