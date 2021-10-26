@@ -4,9 +4,28 @@ margin: 0;
 margin-top: 92px;
 
 
-display: flex;
 
+display: flex;
+justify-content: space-between;
 padding-bottom: 24px;
 margin-left: 48px;
 margin-right: 48px;
+
+max-width: 1280px;
+}
+
+@media screen and (max-width: 742px) {
+    .footer {
+flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        margin-top: 64px;
+margin-right: 16px;
+margin-left: 16px;
+    }
+    
 }

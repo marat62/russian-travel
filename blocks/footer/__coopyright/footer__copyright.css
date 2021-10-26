@@ -1,7 +1,6 @@
 .footer__copyright {
-    width: 50%;
-    display: flex;
-    justify-content: end;    
+
+      
     font-family: Inter;
 font-style: normal;
 font-weight: normal;
@@ -12,4 +11,12 @@ line-height: 16px;
 text-align: right;
 
 color: #FFFFFF;
+}
+
+@media screen and (max-width: 742px) {
+    .footer__copyright {
+        display: flex;
+justify-content: start;
+    }
+    
 }

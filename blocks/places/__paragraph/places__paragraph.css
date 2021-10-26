@@ -12,3 +12,20 @@
     
     color: #FFFFFF;
 }
+
+@media screen  and (max-width: 689px ) {
+    .places__paragraph {
+       
+   margin-left: 16px;
+   margin-right: 16px;
+  
+}
+}
+@media screen  and (max-width: 320px ) {
+    .places__paragraph {
+       
+   margin-left: 16px;
+   margin-right: 16px;
+  
+}
+}
