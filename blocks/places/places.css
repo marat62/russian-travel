@@ -50,8 +50,6 @@
         grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     margin-top: 50px;
-   margin-left: 0px;
-   margin-right: 0px;
-   gap: 32px;
-} 
+  
+}
 }
