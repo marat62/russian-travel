@@ -6,12 +6,11 @@
 	width: auto;
 	background-size: cover;
 	background-position: center;
+	display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 	margin-right: 48px;
 	margin-left: 48px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 
 .cover::before {
@@ -30,11 +29,14 @@
 }
 
 .cover::after {
-	display: block;
 	content: '';
-	padding-bottom: 62.5%;
-	width: 100%;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    display: block;
+    width: 100%;
+    padding-top: 62.5%;
 }
+
 
 @media screen and (max-width: 1279px) {
 	.cover {
