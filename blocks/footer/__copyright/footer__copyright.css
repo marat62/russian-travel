@@ -13,5 +13,6 @@
 @media screen and (max-width: 767px) {
 	.footer__copyright {
 		justify-content: start;
+		line-height: 14px;
 	}
 }
