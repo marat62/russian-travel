@@ -29,7 +29,8 @@
 		grid-template-rows: auto 1fr;
 		margin-left: 24px;
 		margin-right: 24px;
-		gap: 28px 48px;
+		margin-top: 73px;
+		gap: 48px 28px;
 	}
 }
 
