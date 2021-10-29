@@ -31,11 +31,11 @@
 
 .cover::after {
 	content: '';
-    grid-column: 1 / -1;
-    grid-row: 1 / -1;
-    display: block;
-    width: 100%;
-    padding-top: 62.5%;
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+        display: block;
+        width: 100%;
+        padding-top: 62.5%;
 }
 
 
