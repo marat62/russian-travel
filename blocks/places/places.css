@@ -17,6 +17,7 @@
 	.places {
 		grid-template-columns: 440px 1fr;
 		grid-template-rows: auto 1fr;
+	    grid-template-rows: auto 1fr;
 		margin-left: 48px;
 		margin-right: 48px;
 		gap: 40px 32px;
@@ -26,7 +27,8 @@
 @media screen and (max-width: 1023px) {
 	.places {
 		grid-template-columns: 340px 1fr;
-    	grid-template-rows: auto 1fr;
+		grid-template-rows: auto 1fr;
+  		grid-template-rows: auto 1fr;
 		margin-left: 24px;
 		margin-right: 24px;
 		margin-top: 73px;
